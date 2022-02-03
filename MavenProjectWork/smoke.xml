@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+				<!-- Smoke Testing -->
+	<groups>
+		<run>
+			<include name="smoke"></include>
+		</run>
+	</groups>
+	<test thread-count="5" name="Test">
+		<classes>
+			<class name="mobilePhones.TC_AT_00Test" />
+			<class name="mobilePhones.TC_AT_004Test" />
+			<class name="mobilePhones.TC_AT_002Test" />
+			<class name="mobilePhones.TC_AT_003Test" />
+		</classes>
+	</test> 
+</suite> 
